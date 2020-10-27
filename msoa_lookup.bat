@@ -1,6 +1,6 @@
 @echo off
 rem
-rem generate_lookup.bat
+rem msoa_lookup.bat
 rem
 rem This batch file will create file 'lookup_data.csv' containing information 
 rem relating to the MSOA ( Middles Super Output Area ) and LTLA (Lower Tier

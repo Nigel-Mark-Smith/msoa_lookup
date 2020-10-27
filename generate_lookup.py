@@ -4,7 +4,7 @@
 # ===========
 #
 # This script generates a file 'lookup_data.csv' which contains
-# information relating to the MSOA ( Middles Super Output Area ) and LTLA (Lower 
+# information relating to the MSOA ( Middle Super Output Area ) and LTLA (Lower 
 # Tier Local Authority ) in which each UK postcode resides. Each row of this 
 # file consists of the following fields:
 # 
