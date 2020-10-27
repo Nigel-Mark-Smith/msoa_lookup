@@ -4,10 +4,10 @@
 # ===========
 #
 # This utility will retrieve all source data files necessary to create file
-# 'lookup_data.csv' containing information relating to the MSOA ( Middles Super Output Area ) 
+# 'lookup_data.csv' containing information relating to the MSOA ( Middle Super Output Area ) 
 # and LTLA (Lower Tier Local Authority ) in which each UK postcode resides. All files are 
 # stored in temporay storage on c:\temp from where the necessary information is
-# extracted and stored as data files in the ..\data directory by batch file 'generate_lookup.bat'
+# extracted and stored as data files in the ..\data directory by batch file 'msoa_lookup.bat'
 # The contents, web sources and destination files of each type of information required are as follows:
 #
 # MSOA names and codes
@@ -64,11 +64,12 @@
 # order:
 #
 # line 1: MSOA names and codes file
-# line 2: MSOA names and codes file
+# line 2: MSOA population data file
 # line 3: LTLA names and codes file
 # line 4: MSOA code relating to each UK postcode file:
 #
 # This file is delivered with the followig default configuration:
+#
 # https://visual.parliament.uk/msoanames/static/MSOA-Names-1.6.0.csv
 # https://www.ons.gov.uk/file?uri=%2fpeoplepopulationandcommunity%2fpopulationandmigration%2fpopulationestimates%2fdatasets%2fmiddlesuperoutputareamidyearpopulationestimates%2fmid2019sape22dt4/sape22dt4mid2019msoasyoaestimatesunformatted.zip
 # http://files.digital.nhs.uk/assets/ods/current/Names and Codes.zip
