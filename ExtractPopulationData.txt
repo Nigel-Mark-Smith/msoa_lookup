@@ -1,0 +1,115 @@
+Sub ExtractPopulationData()
+'
+' ExtractPopulationData Macro
+' Extracts MSOA population data and saves as csv file
+'
+' Keyboard Shortcut: Ctrl+p
+'
+    Sheets("Mid-2019 Persons").Select
+    Rows("1:5").Select
+    Selection.Delete Shift:=xlUp
+    Columns("C:C").Select
+    Selection.Delete Shift:=xlToLeft
+    Selection.Delete Shift:=xlToLeft
+    Selection.Delete Shift:=xlToLeft
+    Columns("E:E").Select
+    ActiveWindow.ScrollColumn = 4
+    ActiveWindow.ScrollColumn = 5
+    ActiveWindow.ScrollColumn = 6
+    ActiveWindow.ScrollColumn = 7
+    ActiveWindow.ScrollColumn = 9
+    ActiveWindow.ScrollColumn = 10
+    ActiveWindow.ScrollColumn = 13
+    ActiveWindow.ScrollColumn = 15
+    ActiveWindow.ScrollColumn = 19
+    ActiveWindow.ScrollColumn = 22
+    ActiveWindow.ScrollColumn = 26
+    ActiveWindow.ScrollColumn = 30
+    ActiveWindow.ScrollColumn = 33
+    ActiveWindow.ScrollColumn = 36
+    ActiveWindow.ScrollColumn = 39
+    ActiveWindow.ScrollColumn = 41
+    ActiveWindow.ScrollColumn = 44
+    ActiveWindow.ScrollColumn = 48
+    ActiveWindow.ScrollColumn = 51
+    ActiveWindow.ScrollColumn = 54
+    ActiveWindow.ScrollColumn = 56
+    ActiveWindow.ScrollColumn = 59
+    ActiveWindow.ScrollColumn = 62
+    ActiveWindow.ScrollColumn = 64
+    ActiveWindow.ScrollColumn = 66
+    ActiveWindow.ScrollColumn = 67
+    ActiveWindow.ScrollColumn = 68
+    ActiveWindow.ScrollColumn = 69
+    ActiveWindow.ScrollColumn = 70
+    ActiveWindow.ScrollColumn = 71
+    ActiveWindow.ScrollColumn = 72
+    ActiveWindow.ScrollColumn = 73
+    ActiveWindow.ScrollColumn = 74
+    ActiveWindow.ScrollColumn = 75
+    ActiveWindow.ScrollColumn = 76
+    ActiveWindow.ScrollColumn = 77
+    ActiveWindow.ScrollColumn = 78
+    ActiveWindow.ScrollColumn = 79
+    ActiveWindow.ScrollColumn = 80
+    ActiveWindow.ScrollColumn = 81
+    ActiveWindow.ScrollColumn = 82
+    Columns("E:CQ").Select
+    Selection.Delete Shift:=xlToLeft
+    ActiveWindow.ScrollRow = 33
+    ActiveWindow.ScrollRow = 81
+    ActiveWindow.ScrollRow = 177
+    ActiveWindow.ScrollRow = 399
+    ActiveWindow.ScrollRow = 543
+    ActiveWindow.ScrollRow = 861
+    ActiveWindow.ScrollRow = 1052
+    ActiveWindow.ScrollRow = 1720
+    ActiveWindow.ScrollRow = 2007
+    ActiveWindow.ScrollRow = 5668
+    ActiveWindow.ScrollRow = 5827
+    ActiveWindow.ScrollRow = 6034
+    ActiveWindow.ScrollRow = 6081
+    ActiveWindow.ScrollRow = 6177
+    ActiveWindow.ScrollRow = 6240
+    ActiveWindow.ScrollRow = 6384
+    ActiveWindow.ScrollRow = 6416
+    ActiveWindow.ScrollRow = 7180
+    ActiveWindow.ScrollRow = 7164
+    ActiveWindow.ScrollRow = 7148
+    ActiveWindow.ScrollRow = 7132
+    ActiveWindow.ScrollRow = 7116
+    ActiveWindow.ScrollRow = 7100
+    ActiveWindow.ScrollRow = 7068
+    ActiveWindow.ScrollRow = 6973
+    ActiveWindow.ScrollRow = 6877
+    ActiveWindow.ScrollRow = 6527
+    ActiveWindow.ScrollRow = 6336
+    ActiveWindow.ScrollRow = 5715
+    ActiveWindow.ScrollRow = 5492
+    ActiveWindow.ScrollRow = 3089
+    ActiveWindow.ScrollRow = 2994
+    ActiveWindow.ScrollRow = 2962
+    ActiveWindow.ScrollRow = 2882
+    ActiveWindow.ScrollRow = 2850
+    ActiveWindow.ScrollRow = 2771
+    ActiveWindow.ScrollRow = 2739
+    ActiveWindow.ScrollRow = 2659
+    ActiveWindow.ScrollRow = 2596
+    ActiveWindow.ScrollRow = 2405
+    ActiveWindow.ScrollRow = 1323
+    ActiveWindow.ScrollRow = 1227
+    ActiveWindow.ScrollRow = 1179
+    ActiveWindow.ScrollRow = 972
+    ActiveWindow.ScrollRow = 893
+    ActiveWindow.ScrollRow = 654
+    ActiveWindow.ScrollRow = 574
+    ActiveWindow.ScrollRow = 352
+    ActiveWindow.ScrollRow = 336
+    ActiveWindow.ScrollRow = 33
+    ActiveWindow.ScrollRow = 17
+    ActiveWindow.ScrollRow = 2
+    ChDir "C:\msoa_lookup\data"
+    ActiveWorkbook.SaveAs Filename:="C:\temp\msoa_populations.csv", _
+        FileFormat:=xlCSVMSDOS, CreateBackup:=False
+    ActiveWorkbook.Close
+End Sub

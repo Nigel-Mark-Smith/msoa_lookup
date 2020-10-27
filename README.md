@@ -5,7 +5,7 @@ together support the creation of file 'lookup_data.csv' containing information  
 ( Middles Super Output Area ) and LTLA (Lower Tier Local Authority ) in which each UK  postcode resides. 
 Each row of this file consists of the following fields:
 
-\<Post code\>,\<MSOA name\>\<MSOA code\>,\<MSOA population\>,\<LTLA name\>\<LTLA code\>,\<LTLA population\>
+\<Post code\>,\<MSOA name\>\<MSOA code\>,\<MSOA population\>,\<LTLA name\>,\<LTLA code\>,\<LTLA population\>
 
 File 'lookup_data.csv' can be searched using 'findstr' to determine the  LTLA in which a postocode 
 resides which is required when looking up data provided at an LTLA level on the government's COVID-19 
