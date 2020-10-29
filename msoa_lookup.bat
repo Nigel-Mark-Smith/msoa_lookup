@@ -87,3 +87,8 @@ cd %DataDir%
 
 rem Create compressed lookup data file lookup_data.zip.
 %Zip% a %LookupFile%.zip %LookupFile%.csv
+
+rem Remove all csv files.
+rem
+rem NOTE: This line should be removed once software is installed
+erase  /f /s *.csv

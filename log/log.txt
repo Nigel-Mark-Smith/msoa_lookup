@@ -1,0 +1,38 @@
+Thu Oct 29 10:41:40 2020 INFO: retrieve_files.py: Started
+Thu Oct 29 10:41:40 2020 INFO: retrieve_files.py: Reading configuration file X:\GitHub\msoa_lookup\config\retrieve_files.csv 
+Thu Oct 29 10:41:40 2020 INFO: retrieve_files.py: Downloading file https://visual.parliament.uk/msoanames/static/MSOA-Names-1.6.0.csv 
+Thu Oct 29 10:41:40 2020 INFO: retrieve_files.py: Downloading file https://www.ons.gov.uk/file?uri=%2fpeoplepopulationandcommunity%2fpopulationandmigration%2fpopulationestimates%2fdatasets%2fmiddlesuperoutputareamidyearpopulationestimates%2fmid2019sape22dt4/sape22dt4mid2019msoasyoaestimatesunformatted.zip 
+Thu Oct 29 10:41:43 2020 INFO: retrieve_files.py: Downloading file http://files.digital.nhs.uk/assets/ods/current/Names and Codes.zip 
+Thu Oct 29 10:41:44 2020 INFO: retrieve_files.py: Downloading file https://files.digital.nhs.uk/assets/ods/current/gridall.zip 
+Thu Oct 29 10:41:54 2020 INFO: retrieve_files.py: Completed
+Thu Oct 29 10:42:06 2020 INFO: generate_lookup.py: Started
+Thu Oct 29 10:42:06 2020 INFO: generate_lookup.py: Reading configuration file X:\GitHub\msoa_lookup\config\generate_lookup.csv 
+Thu Oct 29 10:42:06 2020 INFO: generate_lookup.py: Reading configuration file X:\GitHub\msoa_lookup\data\authority_data.csv 
+Thu Oct 29 10:42:06 2020 INFO: generate_lookup.py: Reading configuration files X:\GitHub\msoa_lookup\data\msoa_populations.csv and X:\GitHub\msoa_lookup\data\msoa_names.csv 
+Thu Oct 29 10:42:06 2020 INFO: generate_lookup.py: Reading configuration files X:\GitHub\msoa_lookup\data\postcode_data.csv 
+Thu Oct 29 10:42:06 2020 INFO: generate_lookup.py: Generating lookup file X:\GitHub\msoa_lookup\data\lookup_data.csv 
+Thu Oct 29 10:42:15 2020 INFO: generate_lookup.py: 100000 postcodes processed
+Thu Oct 29 10:42:23 2020 INFO: generate_lookup.py: 200000 postcodes processed
+Thu Oct 29 10:42:31 2020 INFO: generate_lookup.py: 300000 postcodes processed
+Thu Oct 29 10:42:40 2020 INFO: generate_lookup.py: 400000 postcodes processed
+Thu Oct 29 10:42:49 2020 INFO: generate_lookup.py: 500000 postcodes processed
+Thu Oct 29 10:42:57 2020 INFO: generate_lookup.py: 600000 postcodes processed
+Thu Oct 29 10:43:05 2020 INFO: generate_lookup.py: 700000 postcodes processed
+Thu Oct 29 10:43:14 2020 INFO: generate_lookup.py: 800000 postcodes processed
+Thu Oct 29 10:43:22 2020 INFO: generate_lookup.py: 900000 postcodes processed
+Thu Oct 29 10:43:30 2020 INFO: generate_lookup.py: 1000000 postcodes processed
+Thu Oct 29 10:43:38 2020 INFO: generate_lookup.py: 1100000 postcodes processed
+Thu Oct 29 10:43:47 2020 INFO: generate_lookup.py: 1200000 postcodes processed
+Thu Oct 29 10:43:55 2020 INFO: generate_lookup.py: 1300000 postcodes processed
+Thu Oct 29 10:44:03 2020 INFO: generate_lookup.py: 1400000 postcodes processed
+Thu Oct 29 10:44:12 2020 INFO: generate_lookup.py: 1500000 postcodes processed
+Thu Oct 29 10:44:20 2020 INFO: generate_lookup.py: 1600000 postcodes processed
+Thu Oct 29 10:44:28 2020 INFO: generate_lookup.py: 1700000 postcodes processed
+Thu Oct 29 10:44:37 2020 INFO: generate_lookup.py: 1800000 postcodes processed
+Thu Oct 29 10:44:45 2020 INFO: generate_lookup.py: 1900000 postcodes processed
+Thu Oct 29 10:44:53 2020 INFO: generate_lookup.py: 2000000 postcodes processed
+Thu Oct 29 10:45:02 2020 INFO: generate_lookup.py: 2100000 postcodes processed
+Thu Oct 29 10:45:10 2020 INFO: generate_lookup.py: 2200000 postcodes processed
+Thu Oct 29 10:45:10 2020 INFO: generate_lookup.py: A total of 2201092 postcodes were processed 
+Thu Oct 29 10:45:10 2020 WARNING: generate_lookup.py: A total of 0 postcodes with non-existent MSOA's were found 
+Thu Oct 29 10:45:10 2020 INFO: generate_lookup.py: Completed
