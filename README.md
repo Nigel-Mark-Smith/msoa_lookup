@@ -37,7 +37,7 @@ extract_populations.vbs | Converts excel spreadsheet covering NHS trust deaths t
 ExtractPopulationData.txt | Source for Excel macro ExtractPopulationDat used by extract_populations.vbs. 
 utils.py | Python module containing functions used by both generate_lookup.py and retrieve_file.py. 
 lookup_data.zip | Zipped version of the lookup_data.csv file created from last run of msoa_lookup.bat
-log.txt | log file resulting for last run of msoa_lookup.bat in my development environment
+log.txt | log file resulting for last run of msoa_lookup.bat
 
 
 As well as the above scripts and data files the following supporting documentation is also provided:

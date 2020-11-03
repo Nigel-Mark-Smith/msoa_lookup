@@ -1,5 +1,5 @@
-covid alerts Installation 
-==============================
+msoa lookup Installation 
+========================
 This document details the procedure required to install the 
 Python utility scripts delivered in 'msoa_lookup'. The 
 procedure consists of the following two main sub-sections.
